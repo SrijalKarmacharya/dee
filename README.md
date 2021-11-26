@@ -67,7 +67,6 @@ spec:
           #image: yellowfinbi/yellowfin-all-in-one:9.6
           securityContext:
             privileged: true
-            #image: yellowfinbi/yellowfin-app-only:9.6
           image: 065409082096.dkr.ecr.ap-southeast-1.amazonaws.com/servicequik-yellowfin-reporting-service:3c13e3f
           ports:
             - name: web
